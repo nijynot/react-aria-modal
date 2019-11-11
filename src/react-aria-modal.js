@@ -246,7 +246,8 @@ class Modal extends React.Component {
       FocusTrap,
       {
         focusTrapOptions,
-        paused: props.focusTrapPaused
+        paused: props.focusTrapPaused,
+        active: props.active
       },
       React.createElement('div', underlayProps, childrenArray)
     );
